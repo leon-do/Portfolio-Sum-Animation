@@ -22,8 +22,7 @@
 
     		$("#about").animate({
 	        width:"100px",
-	        height:"100px",
-	        margin:"10px"});
+	        height:"100px"});
 	        
 	       	$("body").css("background-color","black");
 	        $("#aboutContent").hide(500);
@@ -57,8 +56,7 @@
 
     		$("#portfolio").animate({
 	        width:"100px",
-	        height:"100px",
-	        margin:"10px"});
+	        height:"100px",});
 	        
 	       	$("body").css("background-color","#ED6A5A");
 	        $("#portfolioContent").hide(500);
@@ -92,8 +90,7 @@
 
     		$("#contact").animate({
 	        width:"100px",
-	        height:"100px",
-	        margin:"10px"});
+	        height:"100px"});
 	        
 	       	$("body").css("background-color","#E6EBE0");
 	        $("#contactContent").hide(500);
