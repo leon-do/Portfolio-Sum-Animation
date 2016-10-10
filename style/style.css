@@ -1,0 +1,93 @@
+/*
+red: ED6A5A
+yellow: F4F1BB
+lightgreen: 9BC1BC
+dargreen: 5CA4A9;
+grey: E6EBE0
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+
+#container{
+	border:1px solid red;
+}
+
+
+
+body{
+	background-color: #ED6A5A;
+	font-family: monospace;
+	font-size: 20px;
+}
+#title{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-size: 100px;
+	left: 20%;
+	color:#F4F1BB;
+}
+#signature{
+	font-size: 12px;
+	right:0px;
+	bottom:0px;
+	color:#E6EBE0;
+}
+#about, #portfolio, #contact{
+	width:100px;
+	height: 100px;
+	color:#E6EBE0;
+	margin: 10px;
+	padding: 5px;
+}
+#about:hover, #portfolio:hover, #contact:hover{
+	cursor:pointer;
+	width: 110px;
+}
+#about{
+	background-color: #5CA4A9;
+}
+#portfolio{
+	background-color: #9BC1BC;
+}
+#contact{
+	background-color: #5CA4A9;
+}
+#aboutContent{
+	display:none;
+	color:#F4F1BB;
+}
+.yr, .fact{
+	padding-bottom: 700px;
+}
+.yr{
+	text-align: right;
+	padding-right:10px;
+}
+.fact{
+	border-left:3px solid #ED6A5A;
+	text-align:left;
+	padding-left:10px;
+}
+i{
+	font-size: 200px;
+}
+#portfolioContent{
+	text-align: center;
+	display:none;
+	color:#F4F1BB;
+}
+#contactContent{
+	text-align: center;
+	display:none;
+	color:#F4F1BB;
+}
+a{
+	font-size:100px;
+	color:#F4F1BB;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:#ED6A5A;
+}
+#email{
