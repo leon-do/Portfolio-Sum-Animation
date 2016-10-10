@@ -33,6 +33,7 @@ body{
 }
 #about:hover, #portfolio:hover, #contact:hover{
 	cursor:pointer;
+	width: 80%;
 }
 #about{
 	background-color: #5CA4A9;
